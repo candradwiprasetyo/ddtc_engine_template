@@ -1,0 +1,314 @@
+body {
+	background: #fff;
+	font-family: 'Poppins';
+	font-size: 14px;
+	color: #08294C;
+}
+
+/*------------- Utilities -----------------*/
+
+.u-font--italic {
+	font-style: italic;
+}
+.u-pad--0 {
+	padding: 0 !important;
+}
+
+.u-pad--20 {
+	padding: 20px !important;
+}
+
+.u-pad--15 {
+	padding: 15px !important;
+}
+
+.u-margin-min--15 {
+	margin: -15px !important;
+}
+
+.js-container{
+	min-height: 600px;
+	position: relative;
+}
+.u-txt-align--right {
+	text-align: right;
+}
+
+.u-txt-color--red {
+	color: #BB5B5D;
+}
+
+.u-clear {
+	clear: both;
+}
+
+.u-line-right {
+	border-right: 1px solid #ccc;
+}
+
+.u-line-left {
+	border-left: 1px solid #ccc;
+}
+
+.row-no-margin {
+	margin-bottom: 0;
+}
+
+.row-section {
+	margin-bottom: 20px;
+}
+
+.u-bg-yellow {
+	background: #FCF2E7;
+}
+
+.u-bg-grey {
+	background: #eee;
+}
+
+.u-bg-tranparent {
+	background: transparent;
+}
+
+.u-mrgn-bottom {
+	margin-bottom: 30px;
+}
+
+.u-pad-bottom {
+	margin-bottom: 30px;
+}
+
+.u-pad-side {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.u-pad {
+	padding: 20px;
+}
+
+.u-mrgn-bottom--0 {
+	margin-bottom: 0px !important;
+}
+
+.u-mrgn-bottom--10 {
+	margin-bottom: 10px !important;
+}
+
+.u-mrgn-bottom--20 {
+	margin-bottom: 20px !important;
+}
+
+.u-mrgn-bottom--30 {
+	margin-bottom: 30px !important;
+}
+
+.u-mrgn-bottom--40 {
+	margin-bottom: 40px !important;
+}
+
+.u-mrgn-top--30 {
+	margin-top: 30px !important;
+}
+
+.u-mrgn-top--0 {
+	margin-top: 0px !important;
+}
+
+.u-mrgn-top--40 {
+	margin-top: 40px !important;
+}
+
+.u-mrgn-top--20 {
+	margin-top: 20px !important;
+}
+
+.u-mrgn-top--10 {
+	margin-top: 10px !important;
+}
+
+
+.u-cover-height--medium {
+	
+}
+
+.u-border--bottom {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+
+.u-see-all {
+	color: #BB5B5D;
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+
+.u-txt-align--right {
+	text-align: right;
+}
+
+.u-font-description {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	color: #666;
+}
+
+.u-font-size--large {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.u-font-size--giant {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.u-box-shadow {
+	-moz-box-shadow:    0px 5px 20px 3px #ccc;
+  	-webkit-box-shadow: 0px 5px 20px 3px #ccc;
+  	box-shadow:         0px 5px 20px 3px #ccc;
+}
+
+/*------------- header -----------------*/
+
+.c-header {
+	width: 100%;
+	background-color: #08294C;
+	color: #fff;
+	position: absolute;
+}
+
+.c-header__logo {
+	width: 140px;
+	padding: 10px 0;
+	padding-left: 10px;
+
+}
+
+.c-header__logo img {
+	width: 100%;
+}
+
+.c-header__login {
+	width: 100%;
+	line-height: 100px;
+}
+
+.c-header__login__item {
+	width: 120px;
+	float: right;
+	line-height: 100px;
+}
+
+/*------------- home video -----------------*/
+
+.c-home-video {
+	position: fixed;
+    right: 0;
+    bottom: inherit;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-color: #08294C;
+}
+
+.c-home-container {
+	display: table;
+    height: 100vh;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.c-home-content {
+	text-align: center;
+	color: #fff;
+	display: table-cell;
+  	vertical-align: middle;
+}
+
+.c-home-content__title {
+	font-size: 32px;
+}
+
+.c-home-content__item {
+	margin-top: 30px;
+}
+
+.c-home-content__item__icon {
+	width: 120px;
+	height: 120px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.c-home-content__item__icon img {
+	width: 100%;
+}
+
+.c-home-content__item__title {
+	width: 100%;
+}
+
+.c-home-content__search {
+	width: 100%;
+	background-color: #fff;
+	margin-top: 30px;
+	position: relative;
+}
+
+.c-home-content__search__textfield {
+	border: none;
+	background-color: #fff;
+	color: #08294C;
+	height: 50px;
+	padding: 20px;
+	width: 100%;
+}
+
+.c-home-content__search__button {
+	border: none;
+	background-color: #F77B04;
+	width: 50px;
+	height: 50px;
+	float: right;
+	line-height: 60px;
+	font-weight: bold;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+}
+
+.c-home-content__footer {
+	bottom: 30px;
+	left: 0;
+	right: 0;
+	position: absolute;
+	text-align: center;
+	font-size: 12px;
+}
+
+/*---- desktop-----*/
+@media screen and (min-width: 769px) {
+	
+}
+
+/*---mobile----*/
+@media screen and (max-width: 768px) {
+	
+}
+
+/*
+
+init 
+
+blue  #08294C
+red  #BB5B5D
+orange #F77B04
+
+title 26px
+
+*/

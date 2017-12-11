@@ -1,0 +1,6 @@
+assets/images/view/*
+assets/images/ori/*
+assets/images/thumb/*
+assets/images/banners/*
+application/config/config.php
+application/config/database.php
